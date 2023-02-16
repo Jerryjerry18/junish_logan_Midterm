@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <title>DR.NUT MOBILE WEBSITE</title>
+    <link href="css/normalize_copy.css" rel="stylesheet">
+    <link href="css/mobile_main.css" rel="stylesheet">
+</head>
+<body>
+    <h1 class="hidden">
+        Midterm
+    </h1>
+    <div id="container">
+        <div id="header-con">
+            <div id="main-header" class="main-content">
+                <img src="img/main_logo.png" alt="main_logo_image" id="header-logo">
+                 <div id="mobile-nav">
+                    <span class="burger"></span>
+                    <span class="burger"></span>
+                    <span class="burger"></span>
+                 </div>
+            </div>    
+        </div> 
+
+        <section>
+            <h4 class="hidden">header essentials</h4>
+            <div id="header-tag"> <h2>THINK BEER, THINK US</h2></div>
+            <a href="mobile_beers.html">BEERS</a>
+                <div  class="box-color">
+                    <div id="hero-img"><img src="img/main_1.webp" alt="main_image" height="300" width="428"></div>
+                </div>
+        </section>
+
+
+        <section class="hero-box-content">
+            <h4>
+                FLAVOURS FOR YOU
+            </h4>
+            <div>
+                <div>
+                    <div id="hero-content"><img src="img/main_2.webp" alt="flavour demo 1" width="428"></div>
+                </div>
+            </div>
+            
+        </section>
+        <div>
+            <div>
+                <div id="hero-content-2"> <img src="img/main_2.webp" alt="flavour demo 2" width="428"></div>
+            </div>
+        </div>
+
+        <section>
+            <h4 id="contact">CONTACT US</h4>
+            <div>
+                <div class="box-color">
+                    <div id="contact-us">
+                        <div>
+                            <section id="contact-form-fields-bottom">
+                                <h3 class="hidden">Contact Us Form</h3>
+                                <form action="email.php" method="POST" enctype="text/plain">
+                                    <input name="fullName" type="text" placeholder="First & Last Name">
+                                    <input name="contactInfo" type="text" required placeholder="Phone number or Email">
+                                    <textarea name="msg" placeholder="Enter your questions, comments or concerns here..."></textarea>
+                                    <input name="submit" type="submit" value="Send">
+                                </form>
+                            </section>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer-main box-color3" id="footer-section">
+            <div>
+                <div>
+                    <div id="footer-demo"><img src="img/main_logo.png" alt="Main_footer_logo" height="74" width="70"></div>
+                    <div class="footer-con" id="footer_tag_1">
+                        <h4>DR.NUT PORTAL</h4>
+                            <ul>
+                                <li class="navigations">
+                                    <a class="navigations" href="#">ABOUT_US</a>
+                                    <a class="navigations" href="#">OUR SERVICES</a>
+                                    <a class="navigations" href="#">PRIVACY POLICY</a>
+                                    <a class="navigations" href="#">BEERS</a>
+                                    <a class="navigations" href="#">TAPROOMS</a>
+                                </li>
+                            </ul>
+                            <article id="footer-newsletter" class="footer-box">
+                                <h6 class="hidden">footer-newsletter</h6>
+                                <input name="Email address" type="text" required placeholder="Enter your Email">
+                                <button>Stay Connected </button>
+                            </article>
+                        </div>
+                    </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+    <!-- link the js file just above the closing body tag -->
+    <script src="js/main.js"></script>
+</body>
+</html>
