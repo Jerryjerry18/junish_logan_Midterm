@@ -169,7 +169,8 @@ a {
   color: white;
   text-decoration: none;
   display: block;
-  margin-left: 66px;
+  font-size: large;
+  margin-left: 60px;
 }
 
 #header-tag {
