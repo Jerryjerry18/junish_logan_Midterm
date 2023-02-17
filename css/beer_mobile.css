@@ -122,6 +122,10 @@ transition: all .5s ease;
   display: none;
 }
 
+#burger-icon {
+  width: 400px;
+}
+
 #main-nav input:checked ~ #burger-con {
   display: block;
 }
