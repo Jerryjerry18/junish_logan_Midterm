@@ -36,18 +36,63 @@ article{
     align-content: center;
 }
 
-.burger {
-	height: 16px;
-	background-color:#aaa;
-	display: block;
-	margin-bottom: 10px;
-}
+/* 3. ---Header--- */
 
-#header-con {
-	background-color: #ddd;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
+#main-nav {
+    grid-column: 1/-1;
+  }
+  
+  #main-nav label img {
+  background: url(../images/burger.svg) center no-repeat;
+  border: 0px;
+  width: 20px;
+  height: 20px;
+  transition: all .5s ease;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  #main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #main-nav li a {
+     display: block;
+     padding: 10px 0 10px 0;
+     text-align: center;
+     color: #626262;
+  }
+  
+  #main-nav li {
+     border-bottom: 1px solid #efefef;
+  }
+  
+  #main-nav li:first-child {
+     border-top: 1px solid #efefef;
+  }
+  
+  #main-nav li:last-child {
+     margin-bottom: 10px;
+  }
+  
+  #burger-con, #main-nav input {
+    display: none;
+  }
+  
+  #burger-icon {
+    width: 400px;
+  }
+  
+  #main-nav input:checked ~ #burger-con {
+    display: block;
+  }
+  
+  #main-nav input:checked ~ label img{
+    transform: rotate(90deg);
+  }
 
 
 
