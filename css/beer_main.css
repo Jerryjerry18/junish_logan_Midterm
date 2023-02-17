@@ -3,7 +3,7 @@
 }
 
 #Title {
-    margin-left: -204px;
+    margin-left: 122px;
     margin-top: -25px;
     font-size: xxx-large;
     
@@ -79,7 +79,7 @@
 .container{
     width: 750px;
     margin: 0 auto;
-    margin-left: 25%;
+    margin-left: 240px;
     display: flex;
     justify-content: center;
 }
@@ -218,7 +218,7 @@
   }
 
 .options1 {
-    margin-left: 133px;
+    margin-left: 93px;
     transition: 0.5s;
     font-size: x-large;
     padding: 15px;
@@ -228,13 +228,13 @@
 
 .options1:hover {
     transition: 0.5s;
-    font-size: xxx-large;
+    font-size: 30px;
     text-decoration: underline;
 }
 
 .options2 {
     margin-bottom: 80px;
-    margin-left: 508px;
+    margin-left: 384px;
     transition: 0.5s;
     text-decoration: none;
     font-size: xx-large;
@@ -322,7 +322,7 @@ input[type="submit"]:hover {
 #footer {
     height: 450px;
     width: 1188px;
-    margin-left: 400px;
+    margin-left: 146px;
 }
 
 #footer-newsletter1 {
